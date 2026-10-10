@@ -1,0 +1,20 @@
+{
+  "deadlock_standard": {
+    "display_name": "Standard (6v6)",
+    "team_size": 6,
+    "team_names": ["Hidden King", "Archmother"],
+    "team_emojis": ["👑", "👁️"],
+    "character_pool_file": "character_pools/deadlock.json",
+    "filter_role": "Draftee",
+    "theme_color": 15051068
+  },
+  "deadlock_brawl": {
+    "display_name": "Street Brawl (4v4)",
+    "team_size": 4,
+    "team_names": ["Hidden King", "Archmother"],
+    "team_emojis": ["👑", "👁️"],
+    "character_pool_file": "character_pools/deadlock.json",
+    "filter_role": "Draftee",
+    "theme_color": 15051068
+  }
+}
