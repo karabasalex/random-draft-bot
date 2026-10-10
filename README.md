@@ -16,22 +16,18 @@ gives every player a unique random character.
 
 ## Default modes
 
-Both are Deadlock, with the **Hidden King** vs the **Archmother**:
-
+Both are Deadlock.
 - **Standard (6v6)** — 12 players max.
 - **Street Brawl (4v4)** — 8 players max.
 
 ## The `@Draftee` filter
 
-Handy for a full voice room. Make a role called `Draftee` and give it to anyone
-who actually wants to play.
+Make a role called `Draftee` and give it to anyone who actually wants to play.
 
 - If **anyone** in the channel has the role, only Draftees get drafted.
 - If **nobody** has it, the bot assumes everyone in the channel is playing.
 
 ## Setup
-
-You'll need Python 3.10+.
 
 1. **Make a Discord app.** In the
    [Discord Developer Portal](https://discord.com/developers/applications), create
@@ -46,9 +42,6 @@ You'll need Python 3.10+.
    pip install -r requirements.txt
    ```
 
-   On WSL/Ubuntu, if `pip` isn't there yet: `sudo apt install -y python3-pip`
-   (then use `python3 -m pip`).
-
 3. **Add your token.** Copy `.env.example` to `.env` and paste your token in:
 
    ```
@@ -60,12 +53,6 @@ You'll need Python 3.10+.
    ```bash
    python bot.py
    ```
-
-   You should see `Logged in as ...` and `Synced slash commands.` Then join a
-   voice channel and type `/draft`.
-
-> Slash commands sync globally, so `/draft` can take a few minutes (sometimes up
-> to an hour) to show up the first time. That's normal.
 
 ## Adding your own game
 
